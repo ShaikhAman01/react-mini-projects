@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 350px;
+    background-color: #fbfbfb;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    position: relative;
+
+  }
+
+  .pfp {
+    background: url("https://imgs.search.brave.com/JZ0i2pr-hC73tzqwPIIiruMThbrl-ve7HdjgXriIoWM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzE3Lzg0LzU1/LzM2MF9GXzIxNzg0/NTU1NV8zcWdiMjF2/bWxUckQwUXNWMXp4/UFBWZkQzNDAyU2NK/TS5qcGc") no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: 125px;
+
+  }
+
+  /* .pfp img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+  } */
+  .pfp img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    bottom: -50px;
+    left: calc(50% - 50px);
+  }
+
+  /* .pInfo {
+    text-align: center;
+    padding: 10px 20px;
+  } */
+  .pInfo {
+    text-align: center;
+    padding: 60px 20px 10px;
+  }
+
+  .pInfo h2 {
+    margin: 0;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pInfo h2 span {
+  margin-left: 10px;
+  font-size: 0.75em;
+  color: #888;
+}
+  
+  .pInfo p {
+    margin: 0;
+    color: #888;
+  }
+
+  .stats {
+    padding: 20px;
+    background: #f4f4f4;
+  }
+
+  .stats ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .stats li {
+    text-align: center;
+  }
+
+  .stats li strong {
+    display: block;
+    font-size: 1.2em;
+  }
+
+  .stats li p {
+    color: #888;
+    padding-top: 5px;
+  }
+
+ 
+  
